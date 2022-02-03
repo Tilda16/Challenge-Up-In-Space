@@ -83,8 +83,12 @@ body {
 }
 
 .rule {
-  margin-top: 4%;
-  margin-left: 25%;
+  top: 88px;
+  left: 167px;
+  width: 473;
+  height: 1px;
+  color: grey;
+  z-index: 1;
 }
 
 .top-bar__button {
