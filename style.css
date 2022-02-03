@@ -110,8 +110,5 @@ body {
   background-color: teal;
   left: 165px;
   top: 387px;
-}
-
-.First {
-  
+  position: absolute;
 }
