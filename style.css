@@ -101,3 +101,17 @@ body {
 .bold {
   font-weight: bold;
 }
+
+/* header text for the ad  */
+
+.Ad-Text {
+  width: 450px;
+  height: 382px;
+  background-color: teal;
+  left: 165px;
+  top: 387px;
+}
+
+.First {
+  
+}
