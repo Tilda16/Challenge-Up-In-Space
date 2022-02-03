@@ -46,7 +46,7 @@ body {
   background-color: pink;
   display: block;
   height: 96px;
-  margin-top: 44px;
+  margin-top: 40px;
   position: relative;
   width: 100%;
 }
@@ -83,7 +83,7 @@ body {
 }
 
 .rule {
-  top: 88px;
+  top: 78px;
   left: 167px;
   color: grey;
   border-style: none;
