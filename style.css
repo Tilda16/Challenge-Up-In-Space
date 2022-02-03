@@ -58,7 +58,7 @@ body {
   left: 0;
   position: absolute;
   top: 50%;
-  width: 45%;
+  width: 640px;
   z-index: 1;
 }
 
@@ -71,26 +71,25 @@ body {
   position: absolute;
   text-align: center;
   top: 0;
-  width: 63%;
+  width: 830px;
 }
 
 
 .logoimg {
   float: left;
-  margin-left: 10%;
   max-width: 100%;
   height: auto;
+  padding-left: 55px;
 }
 
 .rule {
   top: 88px;
   left: 167px;
   color: grey;
-  z-index: 1;
   border-style: none;
-  border-width: 1px;
   width: 473px;
   border-top-style: solid;
+  position: fixed;
 }
 
 .top-bar__button {
