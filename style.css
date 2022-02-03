@@ -110,10 +110,26 @@ body {
 /* header text for the ad  */
 
 .Ad-Text {
+  background-color: teal;
   width: 450px;
   height: 382px;
-  background-color: teal;
   left: 165px;
   top: 387px;
   position: absolute;
+}
+
+.First {
+  color: #D0D6F9;
+  font-family: 'Barlow Condensed';
+  font-size: 28px;
+  letter-spacing: 4.725px;
+}
+
+.pop-out {
+  color: #FFFFFF;
+  font-family: 'Bellefair' ;
+  font-weight: normal;
+  font-size: 150px;
+  line-height: 172px;
+  letter-spacing: 0;
 }
