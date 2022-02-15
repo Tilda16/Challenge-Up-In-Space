@@ -128,6 +128,14 @@ body {
 .Explore-text {
   font-family: 'Bellefair';
   font-size: 32px;
+  font-weight: normal;
+  font-style: normal;
   line-height: 37px;
+  letter-spacing: 2px;
   color: #0B0D17;
+  position: absolute;
+  top: 614px;
+  right: 229px;
+
+
 }
