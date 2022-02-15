@@ -124,8 +124,9 @@ body {
   font-size: 29px;
   letter-spacing: 4.725px;
   line-height: 34px;
-  background-color: darkcyan;
+  background-color: deeppink;
   position: absolute;
+  top: 0;
 }
 
 .pop-out {
@@ -137,6 +138,7 @@ body {
   letter-spacing: 0;
   background-color: aquamarine;
   position: absolute;
+  bottom: 152px;
 }
 
 .under-header {
@@ -147,5 +149,5 @@ body {
   font-style: normal;
   background-color: cornflowerblue;
   position: absolute;
-  margin-bottom: 131px;
+  bottom: 0;
 }
