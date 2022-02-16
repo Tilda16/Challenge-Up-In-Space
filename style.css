@@ -71,6 +71,19 @@ body {
   font-weight: bold;
 }
 
+.line_U-Text {
+  height: 3px;
+  width: 70px;
+  position: absolute;
+  background-color: white;
+  right: 587px;
+  top: 93px;
+  opacity: 0;
+}
+
+.line_U-Text:hover {
+  opacity: 1;
+}
 /* header text for the ad  */
 .Ad-Text {
   /* background-color: teal; */
