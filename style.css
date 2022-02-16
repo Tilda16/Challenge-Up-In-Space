@@ -49,7 +49,7 @@ body {
 .rule {
   top: 78px;
   left: 167px;
-  color: grey;
+  color: #979797;
   border-style: none;
   width: 473px;
   border-top-style: solid;
@@ -71,11 +71,11 @@ body {
   font-weight: bold;
 }
 
-.line_U-Text {
+.line_U-Text1 {
   height: 3px;
   width: 70px;
   position: absolute;
-  background-color: white;
+  background-color: #979797;
   background-clip: content-box;
   top: 0;
   right: 577px;
@@ -84,7 +84,55 @@ body {
 }
 
 
-.line_U-Text:hover {
+.line_U-Text1:hover {
+  opacity: 1;
+}
+
+.line_U-Text2 {
+  height: 3px;
+  width: 130px;
+  position: absolute;
+  background-color: #979797;
+  background-clip: content-box;
+  top: 0;
+  right: 419px;
+  opacity: 0;
+  padding: 93px 10px 10px 10px;
+}
+
+.line_U-Text2:hover {
+  opacity: 1;
+}
+
+.line_U-Text3 {
+  height: 3px;
+  width: 71px;
+  position: absolute;
+  background-color: #979797;
+  background-clip: content-box;
+  top: 0;
+  right: 320px;
+  opacity: 0;
+  padding: 93px 10px 10px 10px;
+}
+
+.line_U-Text3:hover {
+  opacity: 1;
+}
+
+.line_U-Text4 {
+  height: 3px;
+  width: 127px;
+  position: absolute;
+  background-color: #979797;
+  background-clip: content-box;
+  top: 0;
+  right: 165px;
+  opacity: 0;
+  padding: 93px 10px 10px 10px;
+}
+
+.line_U-Text4:hover {
   opacity: 1;
 }
 /* header text for the ad  */
