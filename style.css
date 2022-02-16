@@ -88,6 +88,10 @@ body {
   opacity: 1;
 }
 
+.line_U-Text1:active {
+  background-color: #FFFFFF;
+}
+
 .line_U-Text2 {
   height: 3px;
   width: 130px;
@@ -102,6 +106,10 @@ body {
 
 .line_U-Text2:hover {
   opacity: 1;
+}
+
+.line_U-Text2:active {
+  background-color: #FFFFFF;
 }
 
 .line_U-Text3 {
@@ -120,6 +128,10 @@ body {
   opacity: 1;
 }
 
+.line_U-Text3:active {
+  background-color: #FFFFFF;
+}
+
 .line_U-Text4 {
   height: 3px;
   width: 127px;
@@ -135,6 +147,11 @@ body {
 .line_U-Text4:hover {
   opacity: 1;
 }
+
+.line_U-Text4:active {
+  background-color: #FFFFFF;
+}
+
 /* header text for the ad  */
 .Ad-Text {
   /* background-color: teal; */
