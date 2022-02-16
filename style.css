@@ -76,10 +76,13 @@ body {
   width: 70px;
   position: absolute;
   background-color: white;
-  right: 587px;
-  top: 93px;
+  background-clip: content-box;
+  top: 0;
+  right: 577px;
   opacity: 0;
+  padding: 93px 10px 10px 10px;
 }
+
 
 .line_U-Text:hover {
   opacity: 1;
