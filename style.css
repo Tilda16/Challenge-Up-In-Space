@@ -6,13 +6,15 @@ body {
   margin: 0;
 }
 
+/* ---------- */
 /* Navigation top */
+/* ---------- */
 .nav-wrapper {
   /* background-color: pink; */
   display: block;
-  height: 96px;
   margin-top: 40px;
   position: relative;
+  text-align: right;
   width: 100%;
 }
 
@@ -27,17 +29,63 @@ body {
   z-index: 1;
 }
 
-.top-bar {
+/* Top Navbar */
+.top-navbar {
   /* background: purple; */
   background: rgba(255, 255, 255, 0.04);
-  backdrop-filter: blur(20.5485px);
-  height: 96px;
-  right: 0;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  width: 830px;
+  backdrop-filter: blur(20.5485px);  
+  display: inline-block;
+  padding: 0 141px 0 96px;
+  text-align: right;
 }
+
+
+.top-navbar__button {
+  display: inline-block;
+  cursor: pointer;
+  padding: 38px 24px;
+  position: relative;
+}
+
+.top-navbar__text {
+  font-family: 'Barlow Condensed';
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 2.7px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-style: normal;
+}
+.top-navbar__text span {
+  padding-right: 8px;
+}
+
+
+.bold {
+  font-weight: bold;
+}
+
+.top-navbar__line {
+  background-color: #979797;
+  bottom: 0;
+  display: block;
+  height: 4px;
+  left: 24px;
+  right: 24px;
+  opacity: 0;
+  position: absolute;
+}
+
+ .top-navbar__button:hover .top-navbar__line {
+  opacity: 1;
+}
+
+.line_U-Text1:active  {
+  background-color: #FFFFFF;
+  background-clip: content-box;
+}
+
 
 .logoimg {
   float: left;
@@ -56,50 +104,6 @@ body {
   position: fixed;
 }
 
-.top-bar__button {
-  width: 70px;
-  height: 96px;
-  position: relative;
-  left: 123px;
-}
-
-.top-bar__text {
-  font-family: 'Barlow Condensed';
-  font-size: 16px;
-  line-height: 20px;
-  letter-spacing: 2.7px;
-  color: #FFFFFF;
-  text-transform: uppercase;
-  position: absolute;
-  text-align: center;
-  font-weight: normal;
-  font-style: normal;
-  top: 39px;
-}
-
-.bold {
-  font-weight: bold;
-}
-
-.line_U-Text1 {
-  position: absolute;
-  height: 3px;
-  width: inherit;
-  bottom: 0;
-  background-color: #979797;
-  background-clip: content-box;
-  opacity: 0;
-}
-
- .line_U-Text1:hover {
-  opacity: 1;
-  background-clip: content-box;
-}
-
-.line_U-Text1:active  {
-  background-color: #FFFFFF;
-  background-clip: content-box;
-}
 
 /* .line_U-Text2 {
   height: 3px;
