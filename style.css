@@ -22,8 +22,8 @@ body {
   float: left;
   max-width: 100%;
   height: auto;
-  padding-left: 55px;
-  padding-top: 24px;
+  padding-left: 4%;
+  padding-top: 1.5%;
 }
 
 .rule {
@@ -31,7 +31,7 @@ body {
   left: 167px;
   color: #979797;
   border-style: none;
-  width: 400px;
+  width: 28%;
   border-top-style: solid;
   position: fixed;
   z-index: 1;
@@ -40,9 +40,9 @@ body {
 .top-navbar {
   /* background: purple; */
   background: rgba(255, 255, 255, 0.04);
-  backdrop-filter: blur(20.5485px);
+  backdrop-filter: blur(80.5485px);
   display: inline-block;
-  padding: 0 141px 0 96px;
+  padding: 0 10% 0 7%;
   text-align: right;
 }
 
@@ -51,7 +51,7 @@ body {
 .top-navbar__button {
   display: inline-block;
   cursor: pointer;
-  padding: 38px 24px;
+  padding: 5% 24px;
   position: relative;
 }
 
