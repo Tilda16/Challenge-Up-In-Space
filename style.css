@@ -51,7 +51,7 @@ body {
 .top-navbar__button {
   display: inline-block;
   cursor: pointer;
-  padding: 5% 24px;
+  padding: 38px 24px;
   position: relative;
 }
 
@@ -139,9 +139,12 @@ body {
 
 /* explore button */
 
+.Explore-Ad {
+ position: relative;
+}
 .Explore__circle-button {
   position: relative;
-  top: 447px;
+  top: 302px;
   left: 1001px;
   width: 274px;
   height: 274px;
@@ -158,6 +161,6 @@ body {
   letter-spacing: 2px;
   color: #0B0D17;
   position: absolute;
-  top: 564px;
+  bottom: 119px;
   right: 229px;
 }
