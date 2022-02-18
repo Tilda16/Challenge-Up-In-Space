@@ -10,9 +10,9 @@ body {
 .nav-wrapper {
   /* background-color: pink; */
   display: block;
-  height: 96px;
   margin-top: 40px;
   position: relative;
+  text-align: right;
   width: 100%;
 }
 
