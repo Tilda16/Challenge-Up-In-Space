@@ -139,12 +139,14 @@ body {
 
 /* explore button */
 
-.Explore-circle {
-  position: absolute;
+.Explore__circle-button {
+  position: relative;
   top: 447px;
   left: 1001px;
   width: 274px;
   height: 274px;
+  background-color: #FFFFFF;
+  border-radius: 137px;
 }
 
 .Explore-text {
@@ -158,6 +160,4 @@ body {
   position: absolute;
   top: 564px;
   right: 229px;
-
-
 }
