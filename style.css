@@ -5,8 +5,10 @@ body {
   align-self: center;
   margin: 0;
 }
-
+/* ------------ */
 /* Navigation top */
+/* this is to make the heading (for which section of code you are in) stand out more */
+/* ----------- */
 .nav-wrapper {
   /* background-color: pink; */
   display: block;
@@ -16,34 +18,12 @@ body {
   width: 100%;
 }
 
-.Next-to-bar {
-  /* background-color: green; */
-  display: block;
-  margin-top: -24px;
-  left: 0;
-  position: absolute;
-  top: 50%;
-  width: 640px;
-  z-index: 1;
-}
-
-.top-bar {
-  /* background: purple; */
-  background: rgba(255, 255, 255, 0.04);
-  backdrop-filter: blur(20.5485px);
-  height: 96px;
-  right: 0;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  width: 830px;
-}
-
 .logoimg {
   float: left;
   max-width: 100%;
   height: auto;
   padding-left: 55px;
+  padding-top: 24px;
 }
 
 .rule {
@@ -51,54 +31,66 @@ body {
   left: 167px;
   color: #979797;
   border-style: none;
-  width: 473px;
+  width: 30%;
   border-top-style: solid;
   position: fixed;
+  z-index: 1;
 }
 
-.top-bar__button {
-  width: 70px;
-  height: 96px;
+.top-navbar {
+  /* background: purple; */
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(20.5485px);
+  display: inline-block;
+  padding: 0 141px 0 96px;
+  text-align: right;
+}
+
+
+
+.top-navbar__button {
+  display: inline-block;
+  cursor: pointer;
+  padding: 38px 24px;
   position: relative;
-  left: 123px;
 }
 
-.top-bar__text {
+.top-navbar__text {
   font-family: 'Barlow Condensed';
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 2.7px;
   color: #FFFFFF;
   text-transform: uppercase;
-  position: absolute;
-  text-align: center;
   font-weight: normal;
   font-style: normal;
-  top: 39px;
+}
+
+.top-navbar__text span {
+  padding: 8px;
 }
 
 .bold {
   font-weight: bold;
 }
 
-.line_U-Text1 {
-  position: absolute;
-  height: 3px;
-  width: inherit;
-  bottom: 0;
+.top-navbar__line {
   background-color: #979797;
-  background-clip: content-box;
+  display: block;
+  position: absolute;
+  left: 24px;
+  right: 24px;
+  height: 4px;
+  bottom: 0;
   opacity: 0;
 }
 
- .line_U-Text1:hover {
-  opacity: 1;
-  background-clip: content-box;
+.top-navbar__button:hover .top-navbar__line {
+  opacity:1;
 }
 
-.line_U-Text1:active  {
+.top-navbar__button:active .top-navbar__line {
   background-color: #FFFFFF;
-  background-clip: content-box;
 }
 
 /* .line_U-Text2 {
@@ -121,45 +113,9 @@ body {
   background-color: #FFFFFF;
 } */
 
-/* .line_U-Text3 {
-  height: 3px;
-  width: 71px;
-  position: absolute;
-  background-color: #979797;
-  background-clip: content-box;
-  top: 0;
-  right: 320px;
-  opacity: 0;
-  padding: 93px 10px 10px 10px;
-}
 
-.line_U-Text3:hover {
-  opacity: 1;
-}
 
-.line_U-Text3:active {
-  background-color: #FFFFFF;
-} */
 
-/* .line_U-Text4 {
-  height: 3px;
-  width: 127px;
-  position: absolute;
-  background-color: #979797;
-  background-clip: content-box;
-  top: 0;
-  right: 165px;
-  opacity: 0;
-  padding: 93px 10px 10px 10px;
-}
-
-.line_U-Text4:hover {
-  opacity: 1;
-}
-
-.line_U-Text4:active {
-  background-color: #FFFFFF;
-} */
 
 /* header text for the ad  */
 .Ad-Text {
