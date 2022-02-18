@@ -31,7 +31,7 @@ body {
   left: 167px;
   color: #979797;
   border-style: none;
-  width: 30%;
+  width: 400px;
   border-top-style: solid;
   position: fixed;
   z-index: 1;
@@ -76,13 +76,13 @@ body {
 
 .top-navbar__line {
   background-color: #979797;
+  bottom: 0;
   display: block;
-  position: absolute;
+  height: 4px;
   left: 24px;
   right: 24px;
-  height: 4px;
-  bottom: 0;
   opacity: 0;
+  position: absolute;
 }
 
 .top-navbar__button:hover .top-navbar__line {
@@ -92,30 +92,6 @@ body {
 .top-navbar__button:active .top-navbar__line {
   background-color: #FFFFFF;
 }
-
-/* .line_U-Text2 {
-  height: 3px;
-  width: 130px;
-  position: absolute;
-  background-color: #979797;
-  background-clip: content-box;
-  top: 0;
-  right: 419px;
-  opacity: 0;
-  padding: 93px 10px 10px 10px;
-}
-
-.line_U-Text2:hover {
-  opacity: 1;
-}
-
-.line_U-Text2:active {
-  background-color: #FFFFFF;
-} */
-
-
-
-
 
 /* header text for the ad  */
 .Ad-Text {
