@@ -93,14 +93,28 @@ body {
   background-color: #FFFFFF;
 }
 
+
+/* ----------
+Explore Ad section
+---------- */
+
+.Explore-Ad {
+  margin-top: 256px;
+  position: relative;
+}
+
 /* header text for the ad  */
+
+.row {
+  background-color: coral;
+  display: flex;
+}
+.column {
+  flex: 50%;
+}
 .Ad-Text {
-  /* background-color: teal; */
-  width: 450px;
-  height: 382px;
-  left: 165px;
-  top: 347px;
-  position: absolute;
+  background-color: teal;
+  left: 0;
 }
 
 .First {
@@ -112,6 +126,7 @@ body {
   /* background-color: deeppink; */
   position: absolute;
   top: 0;
+  display: block;
 }
 
 .pop-out {
@@ -119,11 +134,10 @@ body {
   font-family: 'Bellefair';
   font-weight: normal;
   font-size: 150px;
+  display: block;
   line-height: 172px;
   letter-spacing: 0;
   /* background-color: aquamarine; */
-  position: absolute;
-  bottom: 152px;
 }
 
 .under-header {
@@ -133,19 +147,16 @@ body {
   line-height: 32px;
   font-style: normal;
   /* background-color: cornflowerblue; */
-  position: absolute;
-  bottom: 0;
 }
 
 /* explore button */
 
-.Explore-Ad {
- position: relative;
+.Explore-here {
+  background-color: firebrick;
 }
+
 .Explore__circle-button {
   position: relative;
-  top: 302px;
-  left: 1001px;
   width: 274px;
   height: 274px;
   background-color: #FFFFFF;
@@ -160,7 +171,4 @@ body {
   line-height: 37px;
   letter-spacing: 2px;
   color: #0B0D17;
-  position: absolute;
-  bottom: 119px;
-  right: 229px;
 }
