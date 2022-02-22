@@ -70,9 +70,7 @@ body {
   padding: 8px;
 }
 
-.bold {
-  font-weight: bold;
-}
+
 
 .top-navbar__line {
   background-color: #979797;
@@ -137,6 +135,7 @@ Explore Ad section
   font-size: 150px;
   display: block;
   line-height: 172px;
+  padding: 24px 0;
   /* background-color: aquamarine; */
 }
 
@@ -180,6 +179,18 @@ Explore Ad section
   letter-spacing: 2px;
   color: #0B0D17;
   display: flex;
-  justify-content: center;
+  align-items: center;
   flex-direction: column;
+  padding-top: 119px;
+}
+
+ /* text styles */
+
+
+.bold {
+  font-weight: bold;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
