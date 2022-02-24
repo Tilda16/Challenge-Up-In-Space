@@ -169,6 +169,7 @@ Explore Ad section
   background-color: #FFFFFF;
   border-radius: 137px;
   z-index: 1;
+  flex-direction: column;
 }
 
 .Explore-text {
@@ -183,13 +184,19 @@ Explore Ad section
   align-items: center;
   flex-direction: column;
   padding-top: 119px;
+  z-index: 4;
 }
 
 .Explore__active-button {
   width: 450px;
   height: 450px;
   background-color: #979797;
-  display: inline-block;
+  position: absolute;
+  top: 0;
+  z-index: -3;
+  right: 77px;
+  bottom: 100px;
+
 }
  /* text styles */
 
