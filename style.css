@@ -27,13 +27,13 @@ body {
 }
 
 .rule {
-  top: 78px;
+  top: 40px;
   left: 167px;
   color: #979797;
   border-style: none;
   width: 28%;
   border-top-style: solid;
-  position: fixed;
+  position: absolute;
   z-index: 1;
 }
 
@@ -163,11 +163,12 @@ Explore Ad section
 }
 
 .Explore__circle-button {
-  position: relative;
+  display: flex;
   width: 274px;
   height: 274px;
   background-color: #FFFFFF;
   border-radius: 137px;
+  z-index: 1;
 }
 
 .Explore-text {
@@ -184,6 +185,12 @@ Explore Ad section
   padding-top: 119px;
 }
 
+.Explore__active-button {
+  width: 450px;
+  height: 450px;
+  background-color: #979797;
+  display: inline-block;
+}
  /* text styles */
 
 
