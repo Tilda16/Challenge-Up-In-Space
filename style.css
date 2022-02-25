@@ -106,10 +106,7 @@ Explore Ad section
   /* background-color: coral; */
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: normal;
-  align-items: normal;
-  align-content: normal;
+  align-items: center;
 }
 .column {
   background-color: deeppink;
@@ -122,6 +119,8 @@ Explore Ad section
 }
 .Ad-Text {
   background-color: teal;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .First {
@@ -130,6 +129,7 @@ Explore Ad section
   font-size: 29px;
   letter-spacing: 4.725px;
   line-height: 34px;
+  padding-left: 165px;
   /* background-color: deeppink; */
 
 }
@@ -141,7 +141,7 @@ Explore Ad section
   font-size: 150px;
   display: block;
   line-height: 172px;
-  padding: 24px 0;
+  padding: 24px 0 24px 165px;
   /* background-color: aquamarine; */
 }
 
@@ -151,6 +151,8 @@ Explore Ad section
   font-size: 18px;
   line-height: 32px;
   font-style: normal;
+  padding-left: 165px;
+  padding-right: 100px;
   /* background-color: cornflowerblue; */
 }
 
@@ -158,6 +160,8 @@ Explore Ad section
 
 .Explore-here {
   background-color: firebrick;
+  display: flex;
+  justify-content: center;
 }
 
 .Explore__circle-button {
@@ -185,7 +189,10 @@ Explore Ad section
   width: 450px;
   height: 450px;
   background-color: #979797;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 225px;
 }
  /* text styles */
 
