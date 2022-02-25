@@ -97,7 +97,7 @@ Explore Ad section
 ---------- */
 
 .Explore-Ad {
-  margin-top: 256px;
+  margin-top: 200px;
 }
 
 /* header text for the ad  */
@@ -109,7 +109,7 @@ Explore Ad section
   align-items: center;
 }
 .column {
-  background-color: deeppink;
+  /* background-color: deeppink; */
   display: block;
   flex-grow: 1;
   flex-shrink: 0;
@@ -118,7 +118,7 @@ Explore Ad section
   order: 0;
 }
 .Ad-Text {
-  background-color: teal;
+  /* background-color: teal; */
   display: flex;
   flex-wrap: wrap;
 }
@@ -159,9 +159,10 @@ Explore Ad section
 /* explore button */
 
 .Explore-here {
-  background-color: firebrick;
+  /* background-color: firebrick; */
   display: flex;
   justify-content: center;
+  cursor: pointer;
 }
 
 .Explore__circle-button {
@@ -169,6 +170,9 @@ Explore Ad section
   height: 274px;
   background-color: #FFFFFF;
   border-radius: 137px;
+  position: relative;
+  right: 220px;
+  top: 90px;
 }
 
 .Explore-text {
@@ -193,6 +197,13 @@ Explore Ad section
   justify-content: center;
   align-items: center;
   border-radius: 225px;
+  position: relative;
+  left: 140px;
+  opacity: 0;
+}
+
+.Explore-here:hover .Explore__active-button {
+  opacity: 0.1;
 }
  /* text styles */
 
